@@ -1,0 +1,62 @@
+header {
+    background-color:darkgray;
+    ;
+    color:white;
+    padding: 50px;
+    text-align: center;
+}
+
+
+footer {
+    background-color:white;
+    color: darkgray;
+    padding: 50px;
+    text-align: center;
+}
+
+
+.navigationsmeny {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: grey; /* Bakgrundsfärg för menyn */
+}
+
+.navigationsmeny li {
+    float: left; /* Placera alla länkar bredvid varandra */
+}
+
+.navigationsmeny li a {
+    display: block;
+    padding: 10px 20px; /* Lägg till padding för att ge utrymme runt texten */
+    text-decoration: none;
+    color: white; /* Textfärg */
+    background-color:darkgray; /* Bakgrundsfärg för knapparna */
+    border-right: 1px solid #ccc; /* Lägg till en gräns till höger av varje länk */
+}
+
+.navigationsmeny li a:hover {
+    background-color: #BEB8AB; /* Ändra bakgrundsfärg vid hover */
+}
+/* Stil för full-width-image-container */
+.full-width-image-container {
+    background-image: full-width-image-container('image/bilder/pexels-çağdaş-birsen-20377117.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 450px;
+}
+header, footer {
+    background-color: lightgray;
+    color: black;
+}
+
+/* Unika stilar för header och footer på specifika sidor */
+.index header, .homepage footer {
+    background-color: lightgray;
+}
+
+.designers header, .designers footer {
+    background-color: lightgray;
+}
