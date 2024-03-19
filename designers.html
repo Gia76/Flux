@@ -2,45 +2,108 @@
 <html lang="en">
 
 <head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-J1ZMW0MMJL"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-J1ZMW0MMJL');
+    </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Flux är ett modehus utöver det vanliga">
     <meta name="keywords" content="kläder, clothes, plagg mode, klänning, klänningar">
     <meta name="author" content="Modehuset Flux">
     <title>Header med Navigationsmeny</title>
-    <title>Footer med Kontaktinformation</title>
     <link rel="stylesheet" href="css/style.css">
-
 </head>
 
-<body onload="buildMenu()">
+<body>
     <header>
-        <div class="header-content">
         <div class="header">
-            <br>
+            <div class="logo">
+                <img src="image/bilder/Pink Black Luxury Elegant Personal Brand Logo.png" width="200" height="200"
+                    margin="left">
+            </div>
             <nav>
                 <ul id="menu" class="navigationsmeny">
-                    <li><a href="#" class="button">Hem</a></li>
-                    <li><a href="#" class="button">Designers</a></li>
-                    <li><a href="#" class="button">Nyheter</a></li>
-                    <li><a href="#" class="button">Erbjudande</a></li>
-                    <li><a href="#" class="button">Kontakt</a></li>
+                    <li><a href="hem.html" class="button">Hem</a></li>
+                    <li><a href="designers.html" class="button">Designers</a></li>
+                    <li><a href="nyheter.html" class="button">Nyheter</a></li>
+                    <li><a href="https://lindapandir.wordpress.com/" class="button">Erbjudande</a>
+                    </li>
+                    <li><a href="kassa.html" class="button">Varukorg</a></li>
+                    <li><a href="kontakt.html" class="button">Kontakt</a></li>
                 </ul>
             </nav>
         </div>
     </header>
+
+    <body>
+        <div>
+            <h1>
+                <center>Våra högt uppskattade designers!</center>
+            </h1>
+            <br>
+            <br>
+            <center><img src="image/bilder/Designer 2.jpg" width="400" height="500"></center>
+            <br>
+            <center>
+                <p>Ella Stefanons plagg är kända för sina rena linjer, innovativa silhuetter och användning av
+                    högkvalitativa material. Varje plagg bär en berättelse om hennes passion för detaljer och hennes
+                    strävan
+                    efter perfektion.
+            </center>
+            <br>
+            <br>
+            <center><img src="image/bilder/Designer 3.jpg" width="400" height="500"></center>
+            <br>
+            <center>
+                <p>Chloé Marrone har en imponerande portfölj, framstående kunder och framträdanden. Hon har medverkat på
+                    internationella catwalks där Chloé har etablerat sig som en av modets främsta talanger.</p>
+                Hennes kreativitet och skicklighet har inte bara berört modevärlden utan har också inspirerat en hel
+                generation av unga designers att
+                följa sina drömmar.</p>
+
+            </center>
+            <br>
+            <br>
+            <center><img src="image/bilder/Designer 1.jpg" width="400" height="500"></center>
+            <br>
+            <center>
+                <p>Johanna Lindström designer. Med en unik vision och en passion för att skapa originella plagg har
+                    Johanna erövrat både Sverige och utländska marknader med sitt exceptionella arbete känd för sin
+                    djärva och innovativa designstil.</p>
+                <p>Hon kombinerar skandinavisk enkelhet med internationell glamour.</p>
+                <p>Hennes kreationer har fångat uppmärksamheten hos modeentusiaster världen över och har blivit synonymt
+                    med elegans och modernitet.</p>
+                <p>Med en gedigen utbildning inom modedesign och en ödmjuk början i Sveriges modestad, Stockholm, har
+                    Johanna aldrig slutat att drömma stort.
+                <p>Hennes första framgång kom när hennes debutkollektion
+                    visades upp på en internationell modevecka, vilket öppnade dörrar till modevärlden utanför Sveriges
+                    gränser.</p>
+            </center>
+
+    </body>
+    </div>
+    <br>
+    <br>
     <footer>
         <div class="footer-content">
             <h2>Kontakta oss</h2>
             <br>
-            <p>Adress: Follingbogatan 24, 168 60 Bromma</p>
-            <p>Telefon:08- 800 30 30</p>
+            <p>Adress: Follingbogatan 24, Bromma, Sverige</p>
+            <p>Telefon: 08-800 30 30 </p>
             <p>modehusetflux@info.com</p>
-            <button>Kontakta oss</button>
+            <p>Kontakta oss gärna vid frågor.</p>
+            <form action="/action_page.php">
+                <textarea name="message" rows="10" cols="30"></textarea>
+                <br><br>
+                <input type="submit">
+            </form>
         </div>
-    
     </footer>
     <script src="js/script.js"></script>
-    </body>
-    
-    </html>
+</body>

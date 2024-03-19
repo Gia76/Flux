@@ -1,62 +1,70 @@
-header {
-    background-color:darkgray;
-    ;
-    color:white;
-    padding: 50px;
-    text-align: center;
+.header,footer {
+  background-color: #D9D9D6;
+  padding: 20px;
+  margin-bottom: 30px;
+  text-align: center;
+  color: #898782
 }
 
 
-footer {
-    background-color:white;
-    color: darkgray;
-    padding: 50px;
-    text-align: center;
+  {
+    border: 1px solid #D9D9D6;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+    background-color:#D9D9D6;
+  
+}
+ 
+tal2 {
+  image
+
 }
 
-
-.navigationsmeny {
+  ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: grey; /* Bakgrundsfärg för menyn */
-}
+    background-color: #898782;
+  }
 
-.navigationsmeny li {
-    float: left; /* Placera alla länkar bredvid varandra */
-}
+  li {
+    float: left;
+  }
 
-.navigationsmeny li a {
+  li a {
     display: block;
-    padding: 10px 20px; /* Lägg till padding för att ge utrymme runt texten */
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
     text-decoration: none;
-    color: white; /* Textfärg */
-    background-color:darkgray; /* Bakgrundsfärg för knapparna */
-    border-right: 1px solid #ccc; /* Lägg till en gräns till höger av varje länk */
+  }
+
+  li a:hover {
+    background-color: #111;
+  }
+
+
+li {
+    text-align: center;
+    border-bottom: 1px solid #555;
 }
 
-.navigationsmeny li a:hover {
-    background-color: #BEB8AB; /* Ändra bakgrundsfärg vid hover */
-}
-/* Stil för full-width-image-container */
-.full-width-image-container {
-    background-image: full-width-image-container('image/bilder/pexels-çağdaş-birsen-20377117.jpg');
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    height: 450px;
-}
-header, footer {
-    background-color: lightgray;
-    color: black;
+li:last-child {
+    border-bottom: none;
+
 }
 
-/* Unika stilar för header och footer på specifika sidor */
-.index header, .homepage footer {
-    background-color: lightgray;
+li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+body {
+
+  background-color:white;
 }
 
-.designers header, .designers footer {
-    background-color: lightgray;
-}
+
+
