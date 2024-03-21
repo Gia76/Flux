@@ -4,6 +4,7 @@
   margin-bottom: 30px;
   text-align: center;
   color: #898782
+
 }
 
 
@@ -16,6 +17,7 @@
     background-color:#D9D9D6;
   
 }
+
  
 tal2 {
   image
@@ -61,10 +63,16 @@ li a:hover:not(.active) {
     background-color: #555;
     color: white;
 }
+
+
 body {
 
   background-color:white;
+  
 }
 
+
+ 
+    
 
 
